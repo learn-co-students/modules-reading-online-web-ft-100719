@@ -9,7 +9,6 @@ describe 'Kid' do
     expect(kid.name).to eq('Pat')
   end
 
-  it 'extends the MetaDancing module' do
-    expect(Kid).to have_class_dance_methods
-  end
+  
+ 
 end
